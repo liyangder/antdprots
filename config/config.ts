@@ -309,6 +309,23 @@ export default defineConfig({
       ],
     },
     {
+      name: 'test',
+      icon: 'highlight',
+      path: '/test',
+      routes: [
+        {
+          path: '/test',
+          redirect: '/test/page',
+        },
+        {
+          name: 'page',
+          icon: 'smile',
+          path: '/test/page',
+          component: './test/Page',
+        },
+      ],
+    },
+    {
       path: '/',
       redirect: '/dashboard/analysis',
     },
