@@ -179,6 +179,12 @@ export default defineConfig({
           path: '/list/card-list',
           component: './list/card-list',
         },
+        {
+          name: 'test-page',
+          icon: 'smile',
+          path: '/list/test-page',
+          component: './list/test-page',
+        },
       ],
     },
     {

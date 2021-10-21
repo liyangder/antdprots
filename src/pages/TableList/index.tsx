@@ -239,6 +239,7 @@ const TableList: React.FC = () => {
 
   return (
     <PageContainer>
+      <h1>adsfas</h1>
       <ProTable<API.RuleListItem, API.PageParams>
         headerTitle={intl.formatMessage({
           id: 'pages.searchTable.title',
